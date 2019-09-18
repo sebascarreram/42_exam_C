@@ -1,1 +1,1 @@
-# 42_exam_C
+## C programming exam at 42 silicon valley
