@@ -21,9 +21,9 @@ int	main(int argc, char *argv[])
 			while (argv[i][index] != '\0')
 			{
 				if ((argv[i][index] >= 65 && argv[i][index] <= 77) || (argv[i][index] >= 97 && argv[i][index] <= 109))
-					ft_putchar(argv[i][index] += 13);
+					ft_putchar(argv[i][index] + 13);
 				else if ((argv[i][index] >= 78 && argv[i][index] <= 90) || (argv[i][index] >= 110 && argv[i][index] <= 122))
-					ft_putchar(argv[i][index] -= 13);
+					ft_putchar(argv[i][index] - 13);
 				else
 					ft_putchar(argv[i][index]);
 				index++;
