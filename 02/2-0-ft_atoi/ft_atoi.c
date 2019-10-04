@@ -20,7 +20,7 @@ int ft_atoi(const char *str)
 		}
 		while (str[index] >= '0' && str[index] <= '9')
 		{
-			result = (result * 10) + str[index] - 48;
+			result = (result * 10) + str[index] - '0';
 			index++;
 		}
 		index++;
